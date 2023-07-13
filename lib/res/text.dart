@@ -1,0 +1,91 @@
+abstract class AppText {
+  static const String getStarted = 'Get Started';
+  static const String firstIntroTitle = 'Find The Restaurant';
+  static const String lorem =
+      'Qui ex aute ipsum duis. Incididunt\nadipisicing voluptate laborum.';
+  static const String secondIntroTitle = 'Choose favorite dishes!';
+  static const String thirdIntroTitle = 'Get your food delivery!';
+  static const String signIn = 'Sign In';
+  static const String signUp = 'Sign Up';
+  static const String confirm = 'Confirm';
+  static const String email = 'Email';
+  static const String password = 'Password';
+  static const String forgot = 'Forgot your password?';
+  static const String noAccount = 'Don\'t have an account? Sign up.';
+  static const String name = 'Name';
+  static const String confirmPassword = 'Confirm Password';
+  static const String alreadyHave = 'Already have an account? ';
+  static const String forgotTitle = 'Forgot password';
+  static const String forgotText =
+      'Please enter your email address. You will receive a link to create a new password via email.';
+  static const String send = 'Send';
+  static const String done = 'Done';
+  static const String resetPassword = 'Your Password\nHas Been Reset!';
+  static const String resetPasswordTitle = 'Reset Password';
+  static const String resetPasswordText = 'Enter new password and confirm.';
+  static const String newPassword = 'New Password';
+  static const String changePassword = 'Change Password';
+  static const String verify = 'Verify';
+  static const String verifyTitle = 'Verify Your Phone Number';
+  static const String verifyText = 'We have sent you an SMS with a code to number';
+  static const String otp = 'Enter your OTP code here.';
+  static const String viewCart = 'VIEW CART';
+  static const String myProfile = 'My Profile';
+  static const String orderHistory = 'Order History';
+  static const String paymentMethod = 'Payment Method';
+  static const String myAddress = 'My Address';
+  static const String myPromocodes = 'My Promocodes';
+  static const String myFavorites = 'My Favorite';
+  static const String signOut = 'Sign Out';
+  static const String editProfile = 'Edit Profile';
+  static const String searchFor = 'Search for dish...';
+  static const String all = 'All';
+  static const String popularRestaurants = 'Popular Restaurants';
+  static const String order = 'Order';
+  static const String search = 'Search';
+  static const String home = 'Home';
+  static const String profile = 'Profile';
+  static const String skip = 'Skip';
+  static const String next = 'Next';
+  static const String loginIn = 'Log In';
+  static const String phoneNumber = 'Phone number';
+  static const String enterOTP = 'Enter your OTP code here';
+  static const String resend = 'Resend';
+  static const String didntReceive = "Didn't receive the OTP?";
+  static const String filter = 'Filter';
+  static const String sortBy = 'Sort By';
+  static const String dontHaveAccount = 'Don\'t have an account? ';
+  static const String save = 'Save';
+  static const String saveChanges = 'Save Changes';
+  static const String apply = 'Apply';
+  static const String location = 'Location';
+  static const String delivered = 'Delivered';
+  static const String canceled = 'Canceled';
+  static const String free = 'Free';
+  static const String repeatOrder = 'Repeat Order';
+  static const String add = 'Add +';
+  static const String edit = 'Edit';
+  static const String creditCards = 'Credit Cards';
+  static const String cardNumber = 'Card Number';
+  static const String cardValidationText = 'Please type the credit number';
+  static const String nameValidationText = 'Please type your name';
+  static const String addNewCard = 'Add New Card';
+  static const String cvvTooShortText = 'CVV code too short';
+  static const String cardDateFormat = 'MM/YY';
+  static const String cvv = 'CVV';
+  static const String editCard = 'Edit Card';
+  static const String addNewAddress = 'Add New Address';
+  static const String hotOffers = 'Hot offers';
+  static const String add2Cart = 'Add To Cart';
+  static const String ipsum =
+      'Et quis amet laboris mollit eu nostrud exercitation. Qui ex aute ipsum duis. Incididunt adipisicing adipisicing voluptate laborum tempor dolor deserunt exercitation in officia minim elit. Aute exercitation Lorem consequat fugiat id ut.';
+  static const String weSentSms =
+      'We have sent you an SMS with a code to number +17 0123456789.';
+  static const String restaurants = 'Restaurants';
+  static const String food = 'Food';
+  static const String appName = 'Delmer';
+
+  static String current = 'Current';
+
+  static String used = 'Used';
+}

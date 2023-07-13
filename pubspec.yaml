@@ -1,0 +1,90 @@
+name: delmer
+description: A new Flutter project.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  bloc: ^8.0.3
+  cupertino_icons: ^1.0.2
+  equatable: ^2.0.3
+  flutter_bloc: ^8.0.1
+  dio: ^4.0.6
+  flutter_svg: ^1.0.3
+  google_fonts: ^2.3.1
+  intl_phone_field: ^3.1.0
+  pinput: ^2.2.7
+  intl: ^0.17.0
+  flutter_svg_provider: ^1.0.3
+  flutter_screenutil: ^5.4.0+1
+  cached_network_image: ^3.2.0
+  carousel_slider: ^4.1.1
+  dotted_decoration: ^2.0.0
+  firebase_core: ^2.14.0
+  firebase_auth: ^4.6.3
+  flutter_map: ^4.0.0
+  latlong2: ^0.8.2
+  url_launcher: ^6.1.11
+#  card_scanner: ^0.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.4
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/translations/
+    - assets/images/
+    - assets/icons/
+  fonts:
+    - family: HomeIcon
+      fonts:
+        - asset: assets/custom_icons/HomeIcon.ttf
+    - family: OrderIcon
+      fonts:
+        - asset: assets/custom_icons/OrderIcon.ttf
+    - family: SearchIcon
+      fonts:
+        - asset: assets/custom_icons/SearchIcon.ttf
+    - family: ProfileIcon
+      fonts:
+        - asset: assets/custom_icons/ProfileIcon.ttf
+    - family: EditIcon
+      fonts:
+        - asset: assets/custom_icons/EditIcon.ttf
+    - family: CalendarIcon
+      fonts:
+        - asset: assets/custom_icons/CalendarIcon.ttf
+    - family: CreditIcon
+      fonts:
+        - asset: assets/custom_icons/CreditIcon.ttf
+    - family: GiftIcon
+      fonts:
+        - asset: assets/custom_icons/GiftIcon.ttf
+    - family: CreditIcon
+      fonts:
+        - asset: assets/custom_icons/CreditIcon.ttf
+    - family: HeartIcon
+      fonts:
+        - asset: assets/custom_icons/HeartIcon.ttf
+    - family: LocationIcon
+      fonts:
+        - asset: assets/custom_icons/LocationIcon.ttf
+    - family: LogOutIcon
+      fonts:
+        - asset: assets/custom_icons/LogOutIcon.ttf
+    - family: FilterIcon
+      fonts:
+        - asset: assets/custom_icons/FilterIcon.ttf
+    - family: CheckIcon
+      fonts:
+        - asset: assets/custom_icons/CheckIcon.ttf
+    - family: TruckIcon
+      fonts:
+        - asset: assets/custom_icons/TruckIcon.ttf
