@@ -20,6 +20,7 @@ abstract class AppTheme {
           unselectedItemColor: AppColors.green,
         ),
         inputDecorationTheme: InputDecorationTheme(
+          isDense: false,
           focusColor: AppColors.greenLight,
           floatingLabelBehavior: FloatingLabelBehavior.auto,
           floatingLabelAlignment: FloatingLabelAlignment.start,

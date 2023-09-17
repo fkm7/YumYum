@@ -12,7 +12,7 @@ class ApiService {
   final client = Dio();
 
   Future<bool> auth(String phone) async {
-    final response = await client.get(apiUrl + '/auth/' + phone);
+    final response = await client.get('$apiUrl/auth/$phone');
     return response.statusCode == 200;
   }
 }

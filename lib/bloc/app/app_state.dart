@@ -2,7 +2,17 @@ import 'package:equatable/equatable.dart';
 
 abstract class AppState extends Equatable {}
 
-class InitialState extends AppState {
+class FirstRun extends AppState {
   @override
   List<Object?> get props => const [];
+}
+
+class UnauthorizedState extends AppState {
+  @override
+  List<Object?> get props => throw UnimplementedError();
+}
+
+class AuthorizedState extends AppState {
+  @override
+  List<Object?> get props => throw UnimplementedError();
 }

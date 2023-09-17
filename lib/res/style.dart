@@ -9,29 +9,40 @@ abstract class AppTextStyle {
     fontWeight: FontWeight.w600,
   );
 
+  static final TextStyle headerLargeStyle = GoogleFonts.raleway(
+    fontSize: 90.sp,
+    fontWeight: FontWeight.w600,
+  );
+
   static final TextStyle headerStyle = GoogleFonts.raleway(
     fontSize: 42.sp,
     fontWeight: FontWeight.w600,
   );
 
   static final TextStyle creditCardNumberStyle = GoogleFonts.roboto(
+    color: Colors.white,
     fontSize: 30.sp,
     fontWeight: FontWeight.normal,
   );
 
+  static final titleStyle3 = GoogleFonts.raleway(
+    fontSize: 44.sp,
+    fontWeight: FontWeight.w700,
+  );
+
   static final TextStyle titleStyle2 = GoogleFonts.raleway(
-    fontSize: 36.sp,
-    fontWeight: FontWeight.normal,
+    fontSize: 38.sp,
+    fontWeight: FontWeight.w600,
   );
 
   static final TextStyle titleStyle1 = GoogleFonts.raleway(
     fontSize: 34.sp,
-    fontWeight: FontWeight.normal,
+    fontWeight: FontWeight.w600,
   );
 
   static final TextStyle titleStyle0 = GoogleFonts.raleway(
     fontSize: 30.sp,
-    fontWeight: FontWeight.normal,
+    fontWeight: FontWeight.w600,
   );
 
   static final TextStyle subTitleStyle2 = GoogleFonts.roboto(

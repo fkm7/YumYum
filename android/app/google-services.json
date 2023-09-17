@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "790774396706",
+    "firebase_url": "https://delmer-9d425-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "delmer-9d425",
+    "storage_bucket": "delmer-9d425.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:790774396706:android:cc7a31e7cc8a1c1b26d77b",
+        "android_client_info": {
+          "package_name": "uz.felix.delmer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "790774396706-e8btboc6n6kfdtnqeclnqh7u4mkbq8ch.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVOfIXJm88Ti6ZG8zw5sNkhJRkrLdR0ak"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "790774396706-0ak92uo9mnf6fa243omkms1du6n4i238.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "790774396706-3u6cmck7psdn55gtj5vlninrjgnaoa47.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.tukTuk"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

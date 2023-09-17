@@ -2,7 +2,7 @@ abstract class AppText {
   static const String getStarted = 'Get Started';
   static const String firstIntroTitle = 'Find The Restaurant';
   static const String lorem =
-      'Qui ex aute ipsum duis. Incididunt\nadipisicing voluptate laborum.';
+      'Qui ex aute ipsum duis. Incididunt adipisicing voluptate laborum.';
   static const String secondIntroTitle = 'Choose favorite dishes!';
   static const String thirdIntroTitle = 'Get your food delivery!';
   static const String signIn = 'Sign In';
@@ -29,7 +29,7 @@ abstract class AppText {
   static const String verifyTitle = 'Verify Your Phone Number';
   static const String verifyText = 'We have sent you an SMS with a code to number';
   static const String otp = 'Enter your OTP code here.';
-  static const String viewCart = 'VIEW CART';
+  static const String viewCart = 'View Cart';
   static const String myProfile = 'My Profile';
   static const String orderHistory = 'Order History';
   static const String paymentMethod = 'Payment Method';
@@ -67,7 +67,7 @@ abstract class AppText {
   static const String edit = 'Edit';
   static const String creditCards = 'Credit Cards';
   static const String cardNumber = 'Card Number';
-  static const String cardValidationText = 'Please type the credit number';
+  static const String cardNumberValidationText = 'Please type the credit number';
   static const String nameValidationText = 'Please type your name';
   static const String addNewCard = 'Add New Card';
   static const String cvvTooShortText = 'CVV code too short';
@@ -84,8 +84,64 @@ abstract class AppText {
   static const String restaurants = 'Restaurants';
   static const String food = 'Food';
   static const String appName = 'Delmer';
-
-  static String current = 'Current';
-
-  static String used = 'Used';
+  static const String current = 'Current';
+  static const String used = 'Used';
+  static const String cartEmpty = 'Your Cart Is Empty!';
+  static const String myOrder = 'My Order';
+  static const String delivery = 'Delivery';
+  static const String total = 'Total';
+  static const String checkout = 'Checkout';
+  static const String title = 'Title';
+  static const String newAddress = 'New Address';
+  static const String useCurrentLocation = 'Use current location';
+  static const String editAddress = 'Edit Address';
+  static const String deliveryAddress = 'Delivery Address';
+  static const String comment = 'Comment';
+  static const String sendOrder = 'Send Order';
+  static const String paypal = 'Paypal';
+  static const String allOffers = 'All Offers';
+  static const String chooseDeliveryAddress = 'Choose Delivery Address';
+  static const String choosePaymentMethod = 'Choose Payment Method';
+  static const String addNewPaymentMethod = 'Add New Payment Method';
+  static const String orderTracking = 'Order Tracking';
+  static const String deliverTo = 'Deliver To:';
+  static const String monthAndYearValidationText = 'Month and Year wrong';
+  static const String cardNameValidationText = 'Name is too short';
+  static const String emailValidationText = 'Enter correct email address, please';
+  static const String passwordValidationText =
+      'Should be length of 8 with number, letter and special character';
+  static const String applyPromocode = 'Apply Promocode';
+  static const String freeDeliveryFrom = 'Free delivery from';
+  static const String trackMyOrder = 'Track My Order';
+  static const String thankYouForYourOrder = 'Thank You For Your\nOrder!';
+  static const String youCanTrackYouOrder =
+      'You can track your order by clicking the\nbutton below.';
+  static const String continueShopping = 'Continue Shopping';
+  static const String orderFailed = 'Sorry! Your Order Has\nFailed!';
+  static const String smthWentWrong =
+      'Something went wrong. Please try\nagain to contimue your order.';
+  static const String tryAgain = 'Try Again';
+  static const String subTotal = 'SubTotal';
+  static const String yes = 'Yes';
+  static const String no = 'No';
+  static const String phoneNumberValidationText =
+      'Enter correct phone number, please!';
+  static const String signOutRequest = 'Do you realy want to sign out?';
+  static const String noConnection = 'No Internet Connection';
+  static const String noData = 'NO DATA';
+  static const String priceLowToHigh = 'Price low to high';
+  static const String priceHighToLow = 'Price high to low';
+  static const String topRated = 'Top rated';
+  static const String mostPopular = 'Most popular';
+  static const String nearestToMe = 'Nearest to me';
+  static const String cuisines = 'Cuisines';
+  static const String ukrainian = 'Ukrainian';
+  static const String chinese = 'Chinese';
+  static const String italian = 'Italian';
+  static const String thai = 'Thai';
+  static const String georgian = 'Georgian';
+  static const String asian = 'Asian';
+  static const String american = 'American';
+  static const String japanese = 'Japanese';
+  static const String error = 'Error';
 }
